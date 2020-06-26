@@ -48,7 +48,7 @@ class Plot(object):
         plt.xlabel("工作经验")
         plt.title("Python开发工程师薪资")
         plt.legend()
-        plt.savefig(fname="D:\PythonFile\LagouSpider\imags\CsvFile\Python开发工程师薪资-经验.png", figsize=[15, 10])
+        plt.savefig(fname="D:\PythonFile\LagouSpider\imags\pic\Python开发工程师薪资-经验.png", figsize=[15, 10])
 
     def plot_ct_sl(self):
         ct_sl = pd.DataFrame(pd.read_csv("D:\PythonFile\LagouSpider\imags\CsvFile\city_salary.csv"))
@@ -65,15 +65,15 @@ class Plot(object):
         len_index = np.array(ct_sl.index)
         len_index = len_index.tolist()
 
-        bar1 = plt.bar(len_index,height=salary_low,width=0.4,color='c',)
-        bar2 = plt.bar(list(map(lambda x:x+0.4,len_index)),height=salary_high,width=0.4,color='orange')
+        bar1 = plt.bar(len_index,height=salary_low,width=0.4,color='c',label = "低薪")
+        bar2 = plt.bar(list(map(lambda x:x+0.4,len_index)),height=salary_high,width=0.4,color='orange',label="高薪")
         plt.xticks([index + 0.2 for index in len_index],city)
         plt.xticks(rotation=270)
         plt.ylabel("薪资水平/单位：千(K)")
         plt.xlabel("工作城市")
         plt.title("Python开发工程师薪资")
         plt.legend()
-        plt.savefig(fname="D:\PythonFile\LagouSpider\imags\CsvFile\Python开发工程师薪资-城市.png", figsize=[20, 10])
+        plt.savefig(fname="D:\PythonFile\LagouSpider\imags\pic\Python开发工程师薪资-城市.png", figsize=[20, 10])
 
     def plot_ec_sl(self):
         ec_sl = pd.DataFrame(pd.read_csv("D:\PythonFile\LagouSpider\imags\CsvFile\eduction_salary.csv"))
@@ -98,7 +98,7 @@ class Plot(object):
         plt.xlabel("工作经验")
         plt.title("Python开发工程师薪资")
         plt.legend()
-        plt.savefig(fname="D:\PythonFile\LagouSpider\imags\CsvFile\Python开发工程师薪资-学历.png", figsize=[15, 10])
+        plt.savefig(fname="D:\PythonFile\LagouSpider\imags\pic\Python开发工程师薪资-学历.png", figsize=[15, 10])
 
     def plot_salary_pie(self):
         fields = ["salary_low","salary_high"]
@@ -138,7 +138,7 @@ class Plot(object):
         explode = (0, 0, 0, 0.1, 0, 0)
 
         plt.pie(low_salary_len,explode=explode,labels=low_salary_name_detail,autopct='%1.2f%%',shadow=True,startangle=150,radius=1.3)
-        plt.savefig("D:\PythonFile\LagouSpider\imags\CsvFile\Python开发工程师薪资分布详情.png",figsize=[15,10])
+        plt.savefig("D:\PythonFile\LagouSpider\imags\pic\Python开发工程师薪资分布详情.png",figsize=[15,10])
 
     def country_job_num(self):
         df = pd.read_csv("D:\PythonFile\LagouSpider\imags\CsvFile\LagouPosition.csv")
@@ -159,7 +159,7 @@ class Plot(object):
             title_opts=opt.TitleOpts(title = "Python开发工程师分布情况"),
         )
 
-        map.render(path="中国地图.html")
+        map.render(path="D:\PythonFile\LagouSpider\imags\pic/Python开发工程师分布情况.html")
 if __name__ == '__main__':
     app = Plot()
-    app.country_job_num()
+    app.plot_salary_pie()

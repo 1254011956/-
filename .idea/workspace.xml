@@ -1,21 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="510e37ca-d8cc-45c1-9ea3-64b48638f640" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/VisualAnalysis/DataClea.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/VisualAnalysis/Plot.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/VisualAnalysis/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jsondata/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jsondata/province_city.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spiders/City_Spider.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/LagouSpider.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/LagouSpider.iml" afterDir="false" />
+    <list default="true" id="510e37ca-d8cc-45c1-9ea3-64b48638f640" name="Default Changelist" comment="更新了职位分析可视化的信息">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/MySql.py" beforeDir="false" afterPath="$PROJECT_DIR$/db/MySql.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spiders/.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spiders/lagouspider.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/lagouspider.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spiders/log.log" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/log.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VisualAnalysis/Plot.py" beforeDir="false" afterPath="$PROJECT_DIR$/VisualAnalysis/Plot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imags/CsvFile/Python开发工程师薪资-城市.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imags/CsvFile/Python开发工程师薪资-学历.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imags/CsvFile/Python开发工程师薪资-经验.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imags/CsvFile/Python开发工程师薪资分布详情.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imags/pic/Python开发工程师分布情况.html" beforeDir="false" afterPath="$PROJECT_DIR$/imags/pic/Python开发工程师分布情况.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,22 +21,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/VisualAnalysis/Plot.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="157" column="47" lean-forward="true" selection-start-line="157" selection-start-column="47" selection-end-line="157" selection-end-column="47" />
+            <state relative-caret-position="104">
+              <caret line="158" column="19" selection-start-line="158" selection-start-column="19" selection-end-line="158" selection-end-column="19" />
               <folding>
                 <element signature="e#104#135#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://E:/是永啊/大三下/数据挖掘-孔祥盛/54张永爬取51job职位信息/3可视化数据.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="356">
-              <caret line="72" column="48" lean-forward="true" selection-start-line="66" selection-start-column="4" selection-end-line="72" selection-end-column="48" />
-              <folding>
-                <element signature="e#48#73#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -119,6 +100,23 @@
             <path>
               <item name="LagouSpider" type="b2602c69:ProjectViewProjectNode" />
               <item name="LagouSpider" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LagouSpider" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LagouSpider" type="462c0819:PsiDirectoryNode" />
+              <item name="imags" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LagouSpider" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LagouSpider" type="462c0819:PsiDirectoryNode" />
+              <item name="imags" type="462c0819:PsiDirectoryNode" />
+              <item name="CsvFile" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LagouSpider" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LagouSpider" type="462c0819:PsiDirectoryNode" />
+              <item name="imags" type="462c0819:PsiDirectoryNode" />
+              <item name="pic" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LagouSpider" type="b2602c69:ProjectViewProjectNode" />
@@ -324,28 +322,44 @@
       <workItem from="1593049849212" duration="5857000" />
       <workItem from="1593075330901" duration="5273000" />
       <workItem from="1593096069671" duration="5689000" />
-      <workItem from="1593135608528" duration="9615000" />
+      <workItem from="1593135608528" duration="10916000" />
     </task>
+    <task id="LOCAL-00001" summary="更新了职位分析可视化的信息">
+      <created>1593145378023</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1593145378023</updated>
+    </task>
+    <task id="LOCAL-00002" summary="更新了职位分析可视化的信息">
+      <created>1593145516200</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1593145516200</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82893000" />
+    <option name="totallyTimeSpent" value="84194000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2841823" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2841823" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.21847507" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.40469208" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.6759531" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32991204" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.3548387" />
@@ -388,6 +402,10 @@
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.csv" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="更新了职位分析可视化的信息" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新了职位分析可视化的信息" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <default-breakpoints>
@@ -403,7 +421,7 @@
     <SUITE FILE_PATH="coverage/LagouSpider$log.coverage" NAME="log Coverage Results" MODIFIED="1590374610258" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/util" />
     <SUITE FILE_PATH="coverage/LagouSpider$text.coverage" NAME="text Coverage Results" MODIFIED="1590395019436" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spiders" />
     <SUITE FILE_PATH="coverage/LagouSpider$province_city.coverage" NAME="province_city Coverage Results" MODIFIED="1593142031069" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/jsondata" />
-    <SUITE FILE_PATH="coverage/LagouSpider$Plot.coverage" NAME="Plot Coverage Results" MODIFIED="1593144774433" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/VisualAnalysis" />
+    <SUITE FILE_PATH="coverage/LagouSpider$Plot.coverage" NAME="Plot Coverage Results" MODIFIED="1593148112295" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/VisualAnalysis" />
     <SUITE FILE_PATH="coverage/LagouSpider$MySql.coverage" NAME="MySql Coverage Results" MODIFIED="1590418184406" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/db" />
     <SUITE FILE_PATH="coverage/LagouSpider$DataClea.coverage" NAME="DataClea Coverage Results" MODIFIED="1593143090598" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/VisualAnalysis" />
     <SUITE FILE_PATH="coverage/LagouSpider$mongoDB_ip.coverage" NAME="mongoDB_ip Coverage Results" MODIFIED="1590408165428" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/db" />
@@ -415,32 +433,6 @@
     <SUITE FILE_PATH="coverage/LagouSpider$base_spider.coverage" NAME="base_spider Coverage Results" MODIFIED="1590737803272" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spiders" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/spiders/log.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2400" />
-      </provider>
-    </entry>
-    <entry file="file://D:/Python38/Lib/site-packages/pymysql/err.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="108" selection-start-line="108" selection-end-line="108" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Python38/Lib/site-packages/selenium/webdriver/support/wait.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="79" selection-start-line="79" selection-end-line="79" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/setting.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/util/log.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1150">
@@ -498,12 +490,6 @@
     <entry file="file://$PROJECT_DIR$/VisualAnalysis/Python开发工程师薪资-经验.png" />
     <entry file="file://$PROJECT_DIR$/VisualAnalysis/Python开发工程师薪资-城市.png" />
     <entry file="file://$PROJECT_DIR$/VisualAnalysis/Python开发工程师薪资-学历.png" />
-    <entry file="file://$PROJECT_DIR$/imags/CsvFile/Python开发工程师薪资-学历.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imags/CsvFile/Python开发工程师薪资-城市.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://D:/Python38/Lib/site-packages/pandas/core/frame.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="142">
@@ -521,12 +507,6 @@
           <caret line="32" selection-start-line="32" selection-end-line="32" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imags/CsvFile/Python开发工程师薪资-经验.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imags/CsvFile/Python开发工程师薪资分布详情.png">
-      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/imags/pic/Python开发工程师分布情况.html">
       <provider selected="true" editor-type-id="text-editor" />
@@ -638,10 +618,34 @@
     <entry file="file://$PROJECT_DIR$/VisualAnalysis/中国地图.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/imags/CsvFile/Python开发工程师薪资-经验.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imags/CsvFile/Python开发工程师薪资-学历.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imags/CsvFile/Python开发工程师薪资-城市.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imags/pic/Python开发工程师薪资-城市.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imags/pic/Python开发工程师薪资-学历.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imags/pic/Python开发工程师薪资-经验.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imags/CsvFile/Python开发工程师薪资分布详情.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imags/pic/Python开发工程师薪资分布详情.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/VisualAnalysis/Plot.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="157" column="47" lean-forward="true" selection-start-line="157" selection-start-column="47" selection-end-line="157" selection-end-column="47" />
+        <state relative-caret-position="104">
+          <caret line="158" column="19" selection-start-line="158" selection-start-column="19" selection-end-line="158" selection-end-column="19" />
           <folding>
             <element signature="e#104#135#0" expanded="true" />
           </folding>
