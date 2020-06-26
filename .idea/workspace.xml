@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="510e37ca-d8cc-45c1-9ea3-64b48638f640" name="Default Changelist" comment="" />
+    <list default="true" id="510e37ca-d8cc-45c1-9ea3-64b48638f640" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VisualAnalysis/DataClea.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VisualAnalysis/Plot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VisualAnalysis/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jsondata/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jsondata/province_city.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spiders/City_Spider.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/LagouSpider.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/LagouSpider.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/MySql.py" beforeDir="false" afterPath="$PROJECT_DIR$/db/MySql.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/lagouspider.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/lagouspider.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/log.log" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/log.log" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,36 +26,24 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/spiders/base_spider.py">
+        <entry file="file://$PROJECT_DIR$/VisualAnalysis/Plot.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="750">
-              <caret line="30" column="85" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="85" />
+            <state relative-caret-position="341">
+              <caret line="157" column="47" lean-forward="true" selection-start-line="157" selection-start-column="47" selection-end-line="157" selection-end-column="47" />
               <folding>
-                <element signature="e#113#143#0" expanded="true" />
+                <element signature="e#104#135#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spiders/test.py">
+        <entry file="file://E:/是永啊/大三下/数据挖掘-孔祥盛/54张永爬取51job职位信息/3可视化数据.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="22" column="7" selection-start-line="22" selection-end-line="636" selection-end-column="3" />
+            <state relative-caret-position="356">
+              <caret line="72" column="48" lean-forward="true" selection-start-line="66" selection-start-column="4" selection-end-line="72" selection-end-column="48" />
               <folding>
-                <element signature="e#25#34#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spiders/test2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="14" selection-start-line="14" selection-end-line="14" selection-end-column="82" />
-              <folding>
-                <element signature="e#2#17#0" expanded="true" />
+                <element signature="e#48#73#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -65,37 +68,51 @@
       <find>6818007</find>
       <find>https://www.lagou.com/jobs/6537405.html?show=23cab789d63b48a3aff450e90068087c</find>
       <find>https://www.lagou.com/jobs/7137494.html?show=1ed21876517a48b7843d13e85911caf8</find>
+      <find>bar</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/util/log.py" />
         <option value="$PROJECT_DIR$/spiders/text.py" />
-        <option value="$PROJECT_DIR$/spiders/lagouspider.py" />
         <option value="$PROJECT_DIR$/spiders/detail_spiders.py" />
         <option value="$PROJECT_DIR$/util/USER_AGENT.py" />
         <option value="$PROJECT_DIR$/setting.py" />
         <option value="$PROJECT_DIR$/db/mongoDB_ip.py" />
-        <option value="$PROJECT_DIR$/db/MySql.py" />
         <option value="$PROJECT_DIR$/spiders/base_spider.py" />
         <option value="$PROJECT_DIR$/spiders/test.py" />
         <option value="$PROJECT_DIR$/spiders/test2.py" />
+        <option value="$PROJECT_DIR$/spiders/lagouspider.py" />
+        <option value="$PROJECT_DIR$/db/MySql.py" />
+        <option value="$PROJECT_DIR$/VisualAnalysis/DataAnalysis.py" />
+        <option value="$PROJECT_DIR$/imags/CsvFile/拉勾网Python职位信息.csv" />
+        <option value="$PROJECT_DIR$/imags/CsvFile/LagouPosition.csv" />
+        <option value="$PROJECT_DIR$/jsondata.py" />
+        <option value="$PROJECT_DIR$/spiders/City_Spider.py" />
+        <option value="$PROJECT_DIR$/jsondata/province_city.json" />
+        <option value="$PROJECT_DIR$/jsondata/__init__.py" />
+        <option value="$PROJECT_DIR$/jsondata/province_city.py" />
+        <option value="$PROJECT_DIR$/VisualAnalysis/DataClea.py" />
+        <option value="$PROJECT_DIR$/VisualAnalysis/Plot.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
-    <option name="y" value="-10" />
-    <option name="width" value="1208" />
-    <option name="height" value="940" />
+    <option name="x" value="220" />
+    <option name="y" value="-15" />
+    <option name="width" value="1750" />
+    <option name="height" value="980" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -106,17 +123,24 @@
             <path>
               <item name="LagouSpider" type="b2602c69:ProjectViewProjectNode" />
               <item name="LagouSpider" type="462c0819:PsiDirectoryNode" />
-              <item name="Lagou_网址" type="462c0819:PsiDirectoryNode" />
+              <item name="jsondata" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LagouSpider" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LagouSpider" type="462c0819:PsiDirectoryNode" />
+              <item name="VisualAnalysis" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="D:/PythonProject" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Scrapy_Demo/Fangtianxia_scrapy" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -133,30 +157,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.test2">
-    <configuration name="MySql" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="LagouSpider" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/db" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/db/MySql.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="base_spider" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.Plot">
+    <configuration name="City_Spider" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LagouSpider" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -169,7 +171,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/spiders/base_spider.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/spiders/City_Spider.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -178,7 +180,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="mongoDB_ip" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="DataAnalysis" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LagouSpider" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -186,12 +188,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/db" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/VisualAnalysis" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/db/mongoDB_ip.py" />
+      <option name="SCRIPT_NAME" value="D:\PythonFile\LagouSpider\VisualAnalysis\DataClea.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -200,7 +202,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="DataClea" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LagouSpider" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -208,12 +210,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/spiders" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/VisualAnalysis" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/spiders/test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/VisualAnalysis/DataClea.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -222,7 +224,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Plot" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LagouSpider" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -230,12 +232,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/spiders" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/VisualAnalysis" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/spiders/test2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/VisualAnalysis/Plot.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -244,13 +246,61 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="LagouSpider" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="province_city" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="LagouSpider" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/jsondata" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/jsondata/province_city.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.City_Spider" />
+      <item itemvalue="Python.DataAnalysis" />
+      <item itemvalue="Python.DataClea" />
+      <item itemvalue="Python.Plot" />
+      <item itemvalue="Python.province_city" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.test2" />
-        <item itemvalue="Python.test" />
-        <item itemvalue="Python.base_spider" />
-        <item itemvalue="Python.MySql" />
-        <item itemvalue="Python.mongoDB_ip" />
+        <item itemvalue="Python.Plot" />
+        <item itemvalue="Python.DataClea" />
+        <item itemvalue="Python.province_city" />
+        <item itemvalue="Python.City_Spider" />
+        <item itemvalue="Python.DataAnalysis" />
       </list>
     </recent_temporary>
   </component>
@@ -270,22 +320,27 @@
       <workItem from="1590482709647" duration="4621000" />
       <workItem from="1590735585818" duration="9855000" />
       <workItem from="1590800332349" duration="16000" />
+      <workItem from="1592992082093" duration="14502000" />
+      <workItem from="1593049849212" duration="5857000" />
+      <workItem from="1593075330901" duration="5273000" />
+      <workItem from="1593096069671" duration="5689000" />
+      <workItem from="1593135608528" duration="9615000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41957000" />
+    <option name="totallyTimeSpent" value="82893000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2660858" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2841823" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.22401172" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.21847507" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.6759531" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -293,22 +348,23 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" />
-      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3548387" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32991204" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" x="252" y="133" width="1021" height="629" id="SciView" order="3" show_stripe_button="false" type="FLOATING" weight="0.3297587" />
       <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" x="0" y="0" width="337" height="638" id="Documentation" order="5" side_tool="true" weight="0.3297587" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2600536" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28485253" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.44363105" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.42668623" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.6759531" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -316,31 +372,49 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" />
-      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3548387" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32991204" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" x="252" y="133" width="1021" height="629" id="SciView" order="3" show_stripe_button="false" type="FLOATING" weight="0.3297587" />
       <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" x="0" y="0" width="337" height="638" id="Documentation" order="5" side_tool="true" weight="0.3297587" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.csv" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/LagouSpider$log.coverage" NAME="log Coverage Results" MODIFIED="1590374610258" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/util" />
     <SUITE FILE_PATH="coverage/LagouSpider$text.coverage" NAME="text Coverage Results" MODIFIED="1590395019436" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spiders" />
+    <SUITE FILE_PATH="coverage/LagouSpider$province_city.coverage" NAME="province_city Coverage Results" MODIFIED="1593142031069" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/jsondata" />
+    <SUITE FILE_PATH="coverage/LagouSpider$Plot.coverage" NAME="Plot Coverage Results" MODIFIED="1593144774433" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/VisualAnalysis" />
+    <SUITE FILE_PATH="coverage/LagouSpider$MySql.coverage" NAME="MySql Coverage Results" MODIFIED="1590418184406" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/db" />
+    <SUITE FILE_PATH="coverage/LagouSpider$DataClea.coverage" NAME="DataClea Coverage Results" MODIFIED="1593143090598" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/VisualAnalysis" />
     <SUITE FILE_PATH="coverage/LagouSpider$mongoDB_ip.coverage" NAME="mongoDB_ip Coverage Results" MODIFIED="1590408165428" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/db" />
     <SUITE FILE_PATH="coverage/LagouSpider$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1590745713021" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spiders" />
-    <SUITE FILE_PATH="coverage/LagouSpider$MySql.coverage" NAME="MySql Coverage Results" MODIFIED="1590418184406" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/db" />
-    <SUITE FILE_PATH="coverage/LagouSpider$lagouspider.coverage" NAME="lagouspider Coverage Results" MODIFIED="1590401193309" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spiders" />
+    <SUITE FILE_PATH="coverage/LagouSpider$DataAnalysis.coverage" NAME="DataAnalysis Coverage Results" MODIFIED="1593003249754" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/VisualAnalysis" />
+    <SUITE FILE_PATH="coverage/LagouSpider$lagouspider.coverage" NAME="lagouspider Coverage Results" MODIFIED="1592998630497" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spiders" />
+    <SUITE FILE_PATH="coverage/LagouSpider$City_Spider.coverage" NAME="City_Spider Coverage Results" MODIFIED="1593140808682" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spiders" />
     <SUITE FILE_PATH="coverage/LagouSpider$test.coverage" NAME="test Coverage Results" MODIFIED="1590744326718" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spiders" />
     <SUITE FILE_PATH="coverage/LagouSpider$base_spider.coverage" NAME="base_spider Coverage Results" MODIFIED="1590737803272" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spiders" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/spiders/text.py" />
-    <entry file="file://$PROJECT_DIR$/spiders/lagouspider.py" />
     <entry file="file://$PROJECT_DIR$/spiders/log.log">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2400" />
@@ -350,13 +424,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="301">
           <caret line="108" selection-start-line="108" selection-end-line="108" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Python38/Lib/site-packages/pymysql/cursors.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-17">
-          <caret line="153" column="23" selection-start-line="153" selection-start-column="21" selection-end-line="153" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -384,13 +451,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spiders/detail_spiders.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/spiders/detail_spiders.py" />
     <entry file="file://$PROJECT_DIR$/db/mongoDB_ip.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
@@ -401,65 +462,188 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/util/USER_AGENT.py">
+    <entry file="file://$PROJECT_DIR$/spiders/url.html" />
+    <entry file="file://$PROJECT_DIR$/spiders/.html" />
+    <entry file="file://$PROJECT_DIR$/zbjtxxzbgg/newsid=2c91434a72558c8e01725632b49c0066.html" />
+    <entry file="file://$PROJECT_DIR$/spiders/base_spider.py" />
+    <entry file="file://$PROJECT_DIR$/spiders/test.py" />
+    <entry file="file://$PROJECT_DIR$/spiders/test2.py" />
+    <entry file="file://D:/Python38/Lib/site-packages/pymysql/connections.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="34" column="21" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
+        <state relative-caret-position="102">
+          <caret line="764" selection-start-line="764" selection-end-line="764" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python38/Lib/site-packages/pymysql/cursors.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="169" selection-start-line="169" selection-end-line="169" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lagou_网址lagou.html" />
+    <entry file="file://E:/是永啊/大三下/数据挖掘-孔祥盛/54张永爬取51job职位信息/2清洗数据并分析.py" />
+    <entry file="file://$PROJECT_DIR$/VisualAnalysis/city_salary.csv" />
+    <entry file="file://D:/Python38/Lib/site-packages/matplotlib/pyplot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="2423" lean-forward="true" selection-start-line="2423" selection-end-line="2423" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VisualAnalysis/exprience_salary.csv" />
+    <entry file="file://$PROJECT_DIR$/VisualAnalysis/拉勾网Python职位信息.csv" />
+    <entry file="file://$PROJECT_DIR$/VisualAnalysis/eduction_salary.csv" />
+    <entry file="file://$PROJECT_DIR$/VisualAnalysis/Python开发工程师薪资-经验.png" />
+    <entry file="file://$PROJECT_DIR$/VisualAnalysis/Python开发工程师薪资-城市.png" />
+    <entry file="file://$PROJECT_DIR$/VisualAnalysis/Python开发工程师薪资-学历.png" />
+    <entry file="file://$PROJECT_DIR$/imags/CsvFile/Python开发工程师薪资-学历.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imags/CsvFile/Python开发工程师薪资-城市.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://D:/Python38/Lib/site-packages/pandas/core/frame.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="484" selection-start-line="484" selection-end-line="484" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imags/CsvFile/拉勾网Python职位信息.csv" />
+    <entry file="file://$PROJECT_DIR$/imags/CsvFile/exprience_salary.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevconsole.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imags/CsvFile/Python开发工程师薪资-经验.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imags/CsvFile/Python开发工程师薪资分布详情.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imags/pic/Python开发工程师分布情况.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://D:/Python38/Lib/site-packages/pyecharts/charts/basic_charts/map.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="19" column="24" lean-forward="true" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/db/MySql.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+        <state relative-caret-position="381">
+          <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
           <folding>
             <element signature="e#107#121#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spiders/url.html">
+    <entry file="file://$PROJECT_DIR$/jsondata.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/spiders/.html">
+    <entry file="file://$PROJECT_DIR$/spiders/data.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Lagou_网址lagou.html">
+    <entry file="file://$PROJECT_DIR$/spiders/province_city.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1500" />
+        <state relative-caret-position="1225">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zbjtxxzbgg/newsid=2c91434a72558c8e01725632b49c0066.html">
+    <entry file="file://$PROJECT_DIR$/jsondata/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imags/CsvFile/salary.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spiders/City_Spider.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-75" />
+        <state relative-caret-position="188">
+          <caret line="75" selection-start-line="75" selection-end-line="75" selection-end-column="10" />
+          <folding>
+            <element signature="e#113#128#0" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spiders/base_spider.py">
+    <entry file="file://$PROJECT_DIR$/jsondata/province_city.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="750">
-          <caret line="30" column="85" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="85" />
+        <state relative-caret-position="100">
+          <caret line="2" column="15" lean-forward="true" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/USER_AGENT.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="34" column="21" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spiders/lagouspider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="113" column="19" selection-start-line="113" selection-start-column="19" selection-end-line="113" selection-end-column="19" />
           <folding>
             <element signature="e#113#143#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spiders/test.py">
+    <entry file="file://$PROJECT_DIR$/imags/CsvFile/LagouPosition.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="22" column="7" selection-start-line="22" selection-end-line="636" selection-end-column="3" />
+        <state relative-caret-position="-7051">
+          <caret line="147" column="31" selection-start-line="147" selection-start-column="31" selection-end-line="147" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VisualAnalysis/DataClea.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="59" column="21" lean-forward="true" selection-start-line="59" selection-start-column="21" selection-end-line="59" selection-end-column="21" />
           <folding>
-            <element signature="e#25#34#0" expanded="true" />
+            <element signature="e#114#123#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spiders/test2.py">
+    <entry file="file://$PROJECT_DIR$/jsondata/province_city.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="14" selection-start-line="14" selection-end-line="14" selection-end-column="82" />
+        <state relative-caret-position="-824">
+          <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/是永啊/大三下/数据挖掘-孔祥盛/54张永爬取51job职位信息/3可视化数据.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="72" column="48" lean-forward="true" selection-start-line="66" selection-start-column="4" selection-end-line="72" selection-end-column="48" />
           <folding>
-            <element signature="e#2#17#0" expanded="true" />
+            <element signature="e#48#73#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VisualAnalysis/中国地图.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VisualAnalysis/Plot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="157" column="47" lean-forward="true" selection-start-line="157" selection-start-column="47" selection-end-line="157" selection-end-column="47" />
+          <folding>
+            <element signature="e#104#135#0" expanded="true" />
           </folding>
         </state>
       </provider>

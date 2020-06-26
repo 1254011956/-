@@ -5,6 +5,7 @@
 # @Software: PyCharm
 
 from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.common.by import By
@@ -13,6 +14,7 @@ from lxml import etree
 import time
 import random
 import os
+import re
 
 from setting import KEY
 from util.log import logger
@@ -25,10 +27,13 @@ URL_PATH = "D:\PythonFile\LagouSpider/"
 class LGSpider(object):
     urls = []
     def __init__(self):
+        chrome_options = Options()
+        chrome_options.add_argument("--headless")
+        chrome_options.add_argument("--disable-gpu")
         self.option = webdriver.ChromeOptions()
         self.option.add_experimental_option("excludeSwitches", ["enable-automation"])
         self.option.add_experimental_option('useAutomationExtension', False)
-        self.driver = webdriver.Chrome(executable_path='D:\Python38\chromedriver.exe', options=self.option)
+        self.driver = webdriver.Chrome(executable_path='D:\Python38\chromedriver.exe', options=self.option,chrome_options=chrome_options)
         self.driver.execute_cdp_cmd("Page.addScriptToEvaluateOnNewDocument", {
             "source": """
                             Object.defineProperty(navigator, 'webdriver', {
@@ -127,14 +132,21 @@ class LGSpider(object):
         name = html.xpath("//div[@class='position-content-l']//h1[@class='name']/text()")[0]
         salary = html.xpath("//dd[@class='job_request']//span[1]/text()")[0]
         city = html.xpath("//dd[@class='job_request']//span[2]/text()")[0]
+        city = re.sub(r"\s","",city)
+        city = re.sub(r"/","",city)
         experience = html.xpath("//dd[@class='job_request']//span[3]/text()")[0]
+        experience = re.sub(r"\s", "", experience)
+        experience = re.sub(r"/", "", experience)
         eduction = html.xpath("//dd[@class='job_request']//span[4]/text()")[0]
+        eduction = re.sub(r"\s", "", eduction)
+        eduction = re.sub(r"/", "", eduction)
         character = html.xpath("//dd[@class='job_request']//span[5]/text()")[0]
         advantage = html.xpath("//dd[@class='job-advantage']/p/text()")[0]
         requirement = ''.join(html.xpath("//dd[@class='job_bt']/div[1]/p/text()"))
         job_url = response.url
         data = [name, salary, city, experience, eduction, character,advantage,requirement,job_url]
         self.save_to_mysql(data)
+        logger.info(data)
         logger.info('插入一条数据成功')
         
     def save_to_mysql(self,data):

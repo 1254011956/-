@@ -13,13 +13,20 @@ class SaveMysql(object):
         self.conn = pymysql.connect(**MYSQL)
         self.cursor = self.conn.cursor()
         self._sql = None
+        self._sql_get_data = None
+
+    def __del__(self):
+        self.conn.close()
 
     def insert_one(self,data):
         self.cursor.execute(self.sql,data)
         self.conn.commit()
         self.conn.close()
-    # def __del__(self):
-    #     self.conn.close()
+
+    def get_data(self):
+        self.cursor.execute(self.sql_get_data)
+        results = self.cursor.fetchall()
+        return results
 
     @property
     def sql(self):
@@ -29,3 +36,12 @@ class SaveMysql(object):
             '''
             return self._sql
         return self._sql
+
+    @property
+    def sql_get_data(self):
+        if not self._sql_get_data:
+            self._sql_get_data = '''
+                    select * from lagou_raw            
+                    '''
+            return self._sql_get_data
+        return self._sql_get_data
